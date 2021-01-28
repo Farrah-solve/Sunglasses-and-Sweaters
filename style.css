@@ -1,0 +1,80 @@
+
+* {
+    box-sizing: border-box;
+  }
+  
+  h2 {
+      color: white;
+  } 
+  
+  h4 {
+      color: rgb(70, 67, 67); 
+  }
+  
+  h5 {
+      padding-top: 20px;
+      text-align: center;
+  }
+  
+  .card-header {
+      background-color: rgb(70, 67, 67);
+      padding: 10px;
+      text-align: center;
+    }
+  
+  .main-card {
+      background-color: rgb(203, 227, 235);
+      color: rgb(70, 67, 67);
+      height: 1000px;
+  }
+  
+  .weather-card {
+      background-color: rgb(58, 159, 223);
+      color: white;
+      text-align: center;
+      margin-bottom: 15px;
+      width: 115px;
+  }
+  
+  #city-search {
+      margin-left: 10px;
+  }
+  
+  #search-btn {
+      background-color: rgb(58, 159, 223);
+  }
+  
+  .search-card {
+      width: 25%;
+      float: left;
+      background-color: white;
+      margin-top: 15px;
+  }
+  
+  .days-card {
+      width: 75%;
+      float: right;
+  }
+  
+  .today-card {
+      background-color: white;
+      margin: 15px 0px 0px 15px;
+  }
+  
+  #forecast-card {
+      background-color: white;
+      margin: 15px 0px 0px 15px;
+      padding-left: 100px; 
+  }
+  
+  .favorable {
+      background-color: yellowgreen;
+  }
+  
+  .moderate {
+      background-color: orange;
+  }
+  
+  .severe {
+      background-color: orangered;
+  }
